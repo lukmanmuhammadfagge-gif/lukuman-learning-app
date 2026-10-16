@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  }
+
+:root {
+font-family: Arial, Helvetica, sans-serif;
+color: #172554;
+background: #f1f5f9;
+font-synthesis: none;
+text-rendering: optimizeLegibility;
+}
+
+body {
+margin: 0;
+min-width: 320px;
+}
+
+button, a {
+font: inherit;
+}
+
+.app {
+min-height: 100vh;
+}
+
+.header {
+background: #102b5c;
+color: white;
+padding: 22px 6%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 12px;
+flex-wrap: wrap;
+}
+
+.brand {
+font-size: 25px;
+font-weight: 800;
+}
+
+.tagline {
+color: #dbeafe;
+font-size: 14px;
+}
+
+.hero {
+background: linear-gradient(135deg, #102b5c, #2563eb);
+color: white;
+padding: 65px 7%;
+text-align: center;
+}
+
+.eyebrow {
+font-size: 12px;
+font-weight: bold;
+letter-spacing: 2px;
+color: #bfdbfe;
+}
+
+.hero h1 {
+max-width: 750px;
+margin: 18px auto;
+font-size: clamp(30px, 6vw, 52px);
+line-height: 1.15;
+}
+
+.intro {
+max-width: 600px;
+margin: 0 auto 28px;
+color: #e0e7ff;
+line-height: 1.8;
+}
+
+.button {
+display: inline-block;
+background: white;
+color: #102b5c;
+padding: 14px 22px;
+border-radius: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.courses {
+padding: 45px 6%;
+max-width: 1200px;
+margin: auto;
+}
+
+.courses h2 {
+text-align: center;
+font-size: 28px;
+margin-bottom: 30px;
+}
+
+.course-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+gap: 22px;
+}
+
+.course-card {
+background: white;
+padding: 25px;
+border-radius: 16px;
+border: 1px solid #e2e8f0;
+box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.badge {
+display: inline-block;
+padding: 7px 11px;
+border-radius: 20px;
+font-size: 11px;
+font-weight: bold;
+}
+
+.free {
+background: #dcfce7;
+color: #166534;
+}
+
+.soon {
+background: #fef3c7;
+color: #92400e;
+}
+
+.course-card h3 {
+font-size: 21px;
+margin: 20px 0 12px;
+}
+
+.course-card p {
+color: #475569;
+line-height: 1.7;
+}
+
+.course-button {
+width: 100%;
+padding: 12px;
+margin-top: 12px;
+border: none;
+border-radius: 9px;
+background: #1d4ed8;
+color: white;
+font-weight: bold;
+}
+
+.course-button:disabled {
+background: #cbd5e1;
+color: #475569;
+}
+
+.footer {
+text-align: center;
+padding: 25px 15px;
+background: #102b5c;
+color: #e2e8f0;
+font-size: 13px;
+line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+.header {
+padding: 18px 5%;
+}
+
+.brand {
+font-size: 22px;
+}
+
+.hero {
+padding: 48px 6%;
+}
+
+.courses {
+padding: 35px 5%;
+}
+}D
