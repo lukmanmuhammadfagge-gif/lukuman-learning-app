@@ -47,6 +47,223 @@ const lessons = [
     options: ['Na gode sosai.', 'Ban gane ba.', 'Ina zuwa.'],
     answer: 'Ban gane ba.',
   },
+  {
+    "title": "Lesson 4: Numbers and Counting",
+    "hausaTitle": "Darasi na 4: Lambobi da Ƙirgawa",
+    "explanation": "Learn simple English numbers.",
+    "hausaExplanation": "Koyi lambobin Turanci masu sauƙi.",
+    "examples": [
+      [
+        "One",
+        "Ɗaya"
+      ],
+      [
+        "Two",
+        "Biyu"
+      ],
+      [
+        "Three",
+        "Uku"
+      ],
+      [
+        "Ten",
+        "Goma"
+      ]
+    ],
+    "question": "What does Two mean?",
+    "options": [
+      "Ɗaya",
+      "Biyu",
+      "Uku"
+    ],
+    "answer": "Biyu"
+  },
+  {
+    "title": "Lesson 5: Days and Time",
+    "hausaTitle": "Darasi na 5: Kwanaki da Lokaci",
+    "explanation": "Learn useful words about time.",
+    "hausaExplanation": "Koyi kalmomin Turanci game da lokaci.",
+    "examples": [
+      [
+        "Today",
+        "Yau"
+      ],
+      [
+        "Tomorrow",
+        "Gobe"
+      ],
+      [
+        "Yesterday",
+        "Jiya"
+      ],
+      [
+        "What time is it?",
+        "Karfe nawa?"
+      ]
+    ],
+    "question": "What does Tomorrow mean?",
+    "options": [
+      "Jiya",
+      "Yau",
+      "Gobe"
+    ],
+    "answer": "Gobe"
+  },
+  {
+    "title": "Lesson 6: Family",
+    "hausaTitle": "Darasi na 6: Iyali",
+    "explanation": "Learn English words for family members.",
+    "hausaExplanation": "Koyi sunayen yan uwa a Turanci.",
+    "examples": [
+      [
+        "Father",
+        "Uba"
+      ],
+      [
+        "Mother",
+        "Uwa"
+      ],
+      [
+        "Brother",
+        "Dan’uwa"
+      ],
+      [
+        "Sister",
+        "Yar’uwa"
+      ]
+    ],
+    "question": "What does Mother mean?",
+    "options": [
+      "Uba",
+      "Uwa",
+      "Yar’uwa"
+    ],
+    "answer": "Uwa"
+  },
+  {
+    "title": "Lesson 7: At the Market",
+    "hausaTitle": "Darasi na 7: A Kasuwa",
+    "explanation": "Learn useful English for shopping.",
+    "hausaExplanation": "Koyi Turancin da ake amfani da shi a kasuwa.",
+    "examples": [
+      [
+        "How much is this?",
+        "Nawa ne wannan?"
+      ],
+      [
+        "It is too expensive.",
+        "Ya yi tsada sosai."
+      ],
+      [
+        "I want to buy this.",
+        "Ina son in sayi wannan."
+      ],
+      [
+        "Please reduce the price.",
+        "Don Allah a rage farashin."
+      ]
+    ],
+    "question": "What does How much is this mean?",
+    "options": [
+      "Ina son wannan.",
+      "Nawa ne wannan?",
+      "Ya yi kyau."
+    ],
+    "answer": "Nawa ne wannan?"
+  },
+  {
+    "title": "Lesson 8: English for Business",
+    "hausaTitle": "Darasi na 8: Turanci a Kasuwanci",
+    "explanation": "Learn English phrases for business.",
+    "hausaExplanation": "Koyi jimlolin Turanci na kasuwanci.",
+    "examples": [
+      [
+        "I have a shop.",
+        "Ina da shago."
+      ],
+      [
+        "How much does it cost?",
+        "Nawa ne farashinsa?"
+      ],
+      [
+        "I want to order more.",
+        "Ina son in ƙara oda."
+      ],
+      [
+        "Thank you for your business.",
+        "Na gode da cinikinku."
+      ]
+    ],
+    "question": "What does I have a shop mean?",
+    "options": [
+      "Ina da shago.",
+      "Ina zuwa.",
+      "Ina son abinci."
+    ],
+    "answer": "Ina da shago."
+  },
+  {
+    "title": "Lesson 9: Asking Questions",
+    "hausaTitle": "Darasi na 9: Yin Tambayoyi",
+    "explanation": "Learn how to ask everyday questions.",
+    "hausaExplanation": "Koyi yadda ake yin tambayoyi na yau da kullum.",
+    "examples": [
+      [
+        "What is your name?",
+        "Menene sunanka?"
+      ],
+      [
+        "Where do you live?",
+        "Ina kake zaune?"
+      ],
+      [
+        "What do you do?",
+        "Me kake yi?"
+      ],
+      [
+        "Can you help me?",
+        "Za ka iya taimaka mini?"
+      ]
+    ],
+    "question": "What does Where do you live mean?",
+    "options": [
+      "Menene sunanka?",
+      "Ina kake zaune?",
+      "Me kake yi?"
+    ],
+    "answer": "Ina kake zaune?"
+  },
+  {
+    "title": "Lesson 10: Everyday Conversations",
+    "hausaTitle": "Darasi na 10: Tattaunawar Yau da Kullum",
+    "explanation": "Learn useful everyday English sentences.",
+    "hausaExplanation": "Koyi jimlolin Turanci na yau da kullum.",
+    "examples": [
+      [
+        "I am coming.",
+        "Ina zuwa."
+      ],
+      [
+        "Wait a moment.",
+        "Jira na ɗan lokaci."
+      ],
+      [
+        "I am busy right now.",
+        "Ina cikin aiki yanzu."
+      ],
+      [
+        "See you tomorrow.",
+        "Sai gobe."
+      ]
+    ],
+    "question": "What does See you tomorrow mean?",
+    "options": [
+      "Sai gobe.",
+      "Sai jiya.",
+      "Ina zuwa."
+    ],
+    "answer": "Sai gobe."
+  },
 ]
 
 function App() {
