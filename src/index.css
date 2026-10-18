@@ -109,3 +109,33 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Improved spacing for mobile screens */
+button {
+  margin: 6px 6px 6px 0;
+  cursor: pointer;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #2563eb;
+}
+
+label {
+  line-height: 1.6;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  button {
+    max-width: 100%;
+    padding: 10px 14px;
+  }
+}
