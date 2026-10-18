@@ -264,6 +264,316 @@ const lessons = [
     ],
     "answer": "Sai gobe."
   },
+  {
+    "title": "Lesson 11: Talking About Yourself",
+    "hausaTitle": "Darasi na 11: Magana Game da Kai",
+    "explanation": "Learn simple sentences to describe yourself.",
+    "hausaExplanation": "Koyi jimloli masu sauƙi da za ka yi amfani da su wajen bayyana kanka.",
+    "examples": [
+      [
+        "I am a student.",
+        "Ni ɗalibi ne."
+      ],
+      [
+        "I am learning English.",
+        "Ina koyon Turanci."
+      ],
+      [
+        "I like reading.",
+        "Ina son karatu."
+      ],
+      [
+        "I want to improve.",
+        "Ina son in inganta kaina."
+      ]
+    ],
+    "question": "What does 'I am a student' mean?",
+    "options": [
+      "Ni malami ne.",
+      "Ni ɗalibi ne.",
+      "Ina gida."
+    ],
+    "answer": "Ni ɗalibi ne."
+  },
+  {
+    "title": "Lesson 12: At School",
+    "hausaTitle": "Darasi na 12: A Makaranta",
+    "explanation": "Learn useful English sentences for school.",
+    "hausaExplanation": "Koyi jimlolin Turanci masu amfani a makaranta.",
+    "examples": [
+      [
+        "Where is my classroom?",
+        "Ina ajina?"
+      ],
+      [
+        "I have a question.",
+        "Ina da tambaya."
+      ],
+      [
+        "Please explain again.",
+        "Don Allah, ka sake bayani."
+      ],
+      [
+        "I understand now.",
+        "Yanzu na gane."
+      ]
+    ],
+    "question": "How do you say 'I have a question'?",
+    "options": [
+      "Ina da tambaya.",
+      "Na tafi gida.",
+      "Ina jin yunwa."
+    ],
+    "answer": "Ina da tambaya."
+  },
+  {
+    "title": "Lesson 13: At Work",
+    "hausaTitle": "Darasi na 13: A Wurin Aiki",
+    "explanation": "Learn English phrases for your workplace.",
+    "hausaExplanation": "Koyi jimlolin Turanci da za ka yi amfani da su a wurin aiki.",
+    "examples": [
+      [
+        "I am ready to work.",
+        "Na shirya yin aiki."
+      ],
+      [
+        "What time do we start?",
+        "Wane lokaci za mu fara?"
+      ],
+      [
+        "I need help.",
+        "Ina buƙatar taimako."
+      ],
+      [
+        "I have finished the task.",
+        "Na gama aikin."
+      ]
+    ],
+    "question": "What does 'I need help' mean?",
+    "options": [
+      "Ina buƙatar taimako.",
+      "Na gama cin abinci.",
+      "Ina zuwa kasuwa."
+    ],
+    "answer": "Ina buƙatar taimako."
+  },
+  {
+    "title": "Lesson 14: Food and Drinks",
+    "hausaTitle": "Darasi na 14: Abinci da Abin Sha",
+    "explanation": "Learn how to talk about food and drinks.",
+    "hausaExplanation": "Koyi yadda za ka yi magana game da abinci da abin sha.",
+    "examples": [
+      [
+        "I am hungry.",
+        "Ina jin yunwa."
+      ],
+      [
+        "I am thirsty.",
+        "Ina jin ƙishirwa."
+      ],
+      [
+        "I would like some water.",
+        "Ina son ruwa, don Allah."
+      ],
+      [
+        "The food is delicious.",
+        "Abincin yana da daɗi."
+      ]
+    ],
+    "question": "What does 'I am thirsty' mean?",
+    "options": [
+      "Ina jin barci.",
+      "Ina jin ƙishirwa.",
+      "Ina jin sanyi."
+    ],
+    "answer": "Ina jin ƙishirwa."
+  },
+  {
+    "title": "Lesson 15: Directions",
+    "hausaTitle": "Darasi na 15: Hanyar Zuwa Wuri",
+    "explanation": "Learn simple directions in English.",
+    "hausaExplanation": "Koyi yadda ake bayyana hanya cikin Turanci.",
+    "examples": [
+      [
+        "Where is the market?",
+        "Ina kasuwa?"
+      ],
+      [
+        "Go straight ahead.",
+        "Ka ci gaba kai tsaye."
+      ],
+      [
+        "Turn left.",
+        "Juya hagu."
+      ],
+      [
+        "Turn right.",
+        "Juya dama."
+      ]
+    ],
+    "question": "What does 'Turn left' mean?",
+    "options": [
+      "Juya dama.",
+      "Tsaya a nan.",
+      "Juya hagu."
+    ],
+    "answer": "Juya hagu."
+  },
+  {
+    "title": "Lesson 16: Health",
+    "hausaTitle": "Darasi na 16: Lafiya",
+    "explanation": "Learn useful phrases for talking about your health.",
+    "hausaExplanation": "Koyi jimlolin Turanci da za ka yi amfani da su wajen magana game da lafiya.",
+    "examples": [
+      [
+        "I do not feel well.",
+        "Ba na jin daɗi."
+      ],
+      [
+        "I have a headache.",
+        "Ina ciwon kai."
+      ],
+      [
+        "I need to see a doctor.",
+        "Ina buƙatar ganin likita."
+      ],
+      [
+        "Please help me.",
+        "Don Allah, ka taimake ni."
+      ]
+    ],
+    "question": "What does 'I have a headache' mean?",
+    "options": [
+      "Ina ciwon ciki.",
+      "Ina ciwon kai.",
+      "Ina jin yunwa."
+    ],
+    "answer": "Ina ciwon kai."
+  },
+  {
+    "title": "Lesson 17: Phone and Messages",
+    "hausaTitle": "Darasi na 17: Waya da Saƙonni",
+    "explanation": "Learn English phrases for phone calls and messages.",
+    "hausaExplanation": "Koyi jimlolin Turanci na kira da saƙonnin waya.",
+    "examples": [
+      [
+        "Please call me.",
+        "Don Allah, ka kira ni."
+      ],
+      [
+        "Send me a message.",
+        "Ka turo mini saƙo."
+      ],
+      [
+        "My phone battery is low.",
+        "Batirin wayata ya kusa ƙarewa."
+      ],
+      [
+        "I will call you later.",
+        "Zan kira ka daga baya."
+      ]
+    ],
+    "question": "How do you say 'Please call me'?",
+    "options": [
+      "Don Allah, ka kira ni.",
+      "Ka jira ni.",
+      "Ka turo mini kuɗi."
+    ],
+    "answer": "Don Allah, ka kira ni."
+  },
+  {
+    "title": "Lesson 18: Money and Shopping",
+    "hausaTitle": "Darasi na 18: Kuɗi da Siyayya",
+    "explanation": "Learn English for buying and selling.",
+    "hausaExplanation": "Koyi Turancin da ake amfani da shi wajen saye da sayarwa.",
+    "examples": [
+      [
+        "How much does it cost?",
+        "Nawa ne farashinsa?"
+      ],
+      [
+        "It is too expensive.",
+        "Ya yi tsada sosai."
+      ],
+      [
+        "Do you accept bank transfers?",
+        "Kuna karɓar kuɗin transfer?"
+      ],
+      [
+        "Here is the money.",
+        "Ga kuɗin."
+      ]
+    ],
+    "question": "What does 'It is too expensive' mean?",
+    "options": [
+      "Ya yi arha sosai.",
+      "Ya yi tsada sosai.",
+      "Ba ni da lokaci."
+    ],
+    "answer": "Ya yi tsada sosai."
+  },
+  {
+    "title": "Lesson 19: Making Plans",
+    "hausaTitle": "Darasi na 19: Shirya Haɗuwa",
+    "explanation": "Learn how to make simple plans with other people.",
+    "hausaExplanation": "Koyi yadda za ka tsara haɗuwa da wasu mutane cikin Turanci.",
+    "examples": [
+      [
+        "Are you free today?",
+        "Kana da lokaci yau?"
+      ],
+      [
+        "Let us meet tomorrow.",
+        "Mu haɗu gobe."
+      ],
+      [
+        "What time should I come?",
+        "Wane lokaci zan zo?"
+      ],
+      [
+        "I will be there on time.",
+        "Zan zo a kan lokaci."
+      ]
+    ],
+    "question": "What does 'Let us meet tomorrow' mean?",
+    "options": [
+      "Mu haɗu jiya.",
+      "Mu haɗu gobe.",
+      "Mu tafi yanzu."
+    ],
+    "answer": "Mu haɗu gobe."
+  },
+  {
+    "title": "Lesson 20: Polite English",
+    "hausaTitle": "Darasi na 20: Turanci na Ladabi",
+    "explanation": "Learn polite expressions for everyday conversations.",
+    "hausaExplanation": "Koyi kalmomin ladabi da za ka yi amfani da su a hirar yau da kullum.",
+    "examples": [
+      [
+        "Excuse me.",
+        "Gafara dai."
+      ],
+      [
+        "I am sorry.",
+        "Yi haƙuri."
+      ],
+      [
+        "You are welcome.",
+        "Babu komai."
+      ],
+      [
+        "Have a nice day.",
+        "Ka yini lafiya."
+      ]
+    ],
+    "question": "What does 'I am sorry' mean?",
+    "options": [
+      "Na gode.",
+      "Yi haƙuri.",
+      "Sai anjima."
+    ],
+    "answer": "Yi haƙuri."
+  }
 ]
 
 function App() {
