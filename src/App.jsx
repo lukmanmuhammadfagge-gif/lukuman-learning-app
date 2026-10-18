@@ -1181,23 +1181,6 @@ function App() {
             {lesson.examples.map(([english, hausa]) => (
               <div className="example" key={english}>
                 <p><strong>{english}</strong></p>
-                      <button
-                        type="button"
-                        className="listen-button"
-                        onClick={() => {
-                          if ("speechSynthesis" in window) {
-                            window.speechSynthesis.cancel();
-                            const voice = new SpeechSynthesisUtterance(english);
-                            voice.lang = "en-US";
-                            voice.rate = 0.85;
-                            window.speechSynthesis.speak(voice);
-                          } else {
-                            alert("Audio is not supported by this browser.");
-                          }
-                        }}
-                      >
-                        🔊 Listen / Saurara
-                      </button>
                 <p>{hausa}</p>
               </div>
             ))}
