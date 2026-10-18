@@ -1143,13 +1143,14 @@ function App() {
               </button>
             </article>
 
-            <article className="course-card">
-              <span className="badge soon">COMING SOON</span>
-              <h3>AI for Beginners</h3>
-              <p>Koyi yadda ake amfani da AI wajen aiki da karatu.</p>
-              <p>Learn practical AI skills for everyday life.</p>
-              <button className="course-button" disabled>Coming Soon</button>
-            </article>
+                      <article className="course-card">
+            <span className="badge">AVAILABLE</span>
+            <h3>AI for Beginners</h3>
+            <p>Koyi yadda ake amfani da AI wajen aiki da karatu.</p>
+            <a className="course-button" href="https://lukumanmuhammadfagge-gif.github.io/ai-videos/index.html" target="_blank" rel="noreferrer">
+              Buɗe Littafi / Open Book
+            </a>
+          </article>
 
             <article className="course-card">
               <span className="badge soon">COMING SOON</span>
