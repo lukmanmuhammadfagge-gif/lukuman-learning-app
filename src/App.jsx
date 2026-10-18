@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 const lessons = [
@@ -573,6 +573,316 @@ const lessons = [
       "Sai anjima."
     ],
     "answer": "Yi haƙuri."
+  },
+  {
+    "title": "Lesson 21: English for Business",
+    "hausaTitle": "Darasi na 21: Turancin Kasuwanci",
+    "explanation": "Learn useful English phrases for serving customers.",
+    "hausaExplanation": "Koyi jimlolin Turanci don yi wa kwastomomi hidima.",
+    "examples": [
+      [
+        "How can I help you?",
+        "Yaya zan taimake ka?"
+      ],
+      [
+        "What would you like to buy?",
+        "Me kake son saya?"
+      ],
+      [
+        "The price is five thousand naira.",
+        "Farashin naira dubu biyar ne."
+      ],
+      [
+        "Thank you for your purchase.",
+        "Mun gode da sayayyarka."
+      ]
+    ],
+    "question": "What does 'How can I help you?' mean?",
+    "options": [
+      "Yaya zan taimake ka?",
+      "Ina za ka je?",
+      "Nawa ne kuɗin?"
+    ],
+    "answer": "Yaya zan taimake ka?"
+  },
+  {
+    "title": "Lesson 22: Customer Service",
+    "hausaTitle": "Darasi na 22: Kula da Kwastomomi",
+    "explanation": "Learn polite ways to communicate with customers.",
+    "hausaExplanation": "Koyi yadda za ka yi magana da kwastomomi cikin ladabi.",
+    "examples": [
+      [
+        "Welcome to our shop.",
+        "Barka da zuwa shagonmu."
+      ],
+      [
+        "Please wait a moment.",
+        "Don Allah, ka ɗan jira."
+      ],
+      [
+        "Let me check for you.",
+        "Bari in duba maka."
+      ],
+      [
+        "Thank you for your patience.",
+        "Mun gode da haƙurinka."
+      ]
+    ],
+    "question": "How do you say 'Please wait a moment'?",
+    "options": [
+      "Ka tafi yanzu.",
+      "Don Allah, ka ɗan jira.",
+      "Na gama aiki."
+    ],
+    "answer": "Don Allah, ka ɗan jira."
+  },
+  {
+    "title": "Lesson 23: Job Applications",
+    "hausaTitle": "Darasi na 23: Neman Aiki",
+    "explanation": "Learn basic English for applying for a job.",
+    "hausaExplanation": "Koyi Turanci mai sauƙi don neman aiki.",
+    "examples": [
+      [
+        "I am looking for a job.",
+        "Ina neman aiki."
+      ],
+      [
+        "Here is my CV.",
+        "Ga takardar bayanan karatuna da aikina."
+      ],
+      [
+        "I have experience in sales.",
+        "Ina da ƙwarewa a harkar sayarwa."
+      ],
+      [
+        "I am available for an interview.",
+        "Zan iya zuwa hirar neman aiki."
+      ]
+    ],
+    "question": "What does 'I am looking for a job' mean?",
+    "options": [
+      "Ina neman aiki.",
+      "Ina neman abinci.",
+      "Ina zuwa makaranta."
+    ],
+    "answer": "Ina neman aiki."
+  },
+  {
+    "title": "Lesson 24: Job Interviews",
+    "hausaTitle": "Darasi na 24: Hirar Neman Aiki",
+    "explanation": "Practise common questions asked during job interviews.",
+    "hausaExplanation": "Yi atisaye da tambayoyin hirar neman aiki.",
+    "examples": [
+      [
+        "Tell me about yourself.",
+        "Ka ba ni labarin kanka."
+      ],
+      [
+        "Why do you want this job?",
+        "Me ya sa kake son wannan aikin?"
+      ],
+      [
+        "I am hardworking and honest.",
+        "Ina da ƙwazo kuma ina faɗin gaskiya."
+      ],
+      [
+        "When can you start?",
+        "Yaushe za ka iya farawa?"
+      ]
+    ],
+    "question": "What does 'Tell me about yourself' mean?",
+    "options": [
+      "Ka ba ni labarin kanka.",
+      "Ka rufe ƙofar.",
+      "Ka jira ni."
+    ],
+    "answer": "Ka ba ni labarin kanka."
+  },
+  {
+    "title": "Lesson 25: Business Phone Calls",
+    "hausaTitle": "Darasi na 25: Kiran Wayar Kasuwanci",
+    "explanation": "Learn simple English for professional phone calls.",
+    "hausaExplanation": "Koyi Turancin kiran waya na kasuwanci.",
+    "examples": [
+      [
+        "Hello, this is Lukuman speaking.",
+        "Sannu, Lukuman ne ke magana."
+      ],
+      [
+        "May I speak to the manager?",
+        "Zan iya magana da manaja?"
+      ],
+      [
+        "Please call me back.",
+        "Don Allah, ka sake kirana."
+      ],
+      [
+        "I will send you the details.",
+        "Zan turo maka cikakkun bayanai."
+      ]
+    ],
+    "question": "What does 'Please call me back' mean?",
+    "options": [
+      "Ka rubuto mini wasiƙa.",
+      "Don Allah, ka sake kirana.",
+      "Ka zo gobe."
+    ],
+    "answer": "Don Allah, ka sake kirana."
+  },
+  {
+    "title": "Lesson 26: Using Technology",
+    "hausaTitle": "Darasi na 26: Amfani da Fasaha",
+    "explanation": "Learn English phrases for phones and computers.",
+    "hausaExplanation": "Koyi jimlolin Turanci na amfani da waya da kwamfuta.",
+    "examples": [
+      [
+        "Please open the app.",
+        "Don Allah, buɗe manhajar."
+      ],
+      [
+        "I cannot connect to the internet.",
+        "Ba zan iya haɗuwa da intanet ba."
+      ],
+      [
+        "Save the file.",
+        "Ajiye fayil ɗin."
+      ],
+      [
+        "I forgot my password.",
+        "Na manta kalmar sirrina."
+      ]
+    ],
+    "question": "What does 'I forgot my password' mean?",
+    "options": [
+      "Na manta kalmar sirrina.",
+      "Na sayi sabuwar waya.",
+      "Na buɗe fayil ɗin."
+    ],
+    "answer": "Na manta kalmar sirrina."
+  },
+  {
+    "title": "Lesson 27: Email and Online Communication",
+    "hausaTitle": "Darasi na 27: Imel da Sadarwar Intanet",
+    "explanation": "Learn useful phrases for writing and sending emails.",
+    "hausaExplanation": "Koyi jimlolin rubuta da aika imel.",
+    "examples": [
+      [
+        "I have sent you an email.",
+        "Na aika maka da imel."
+      ],
+      [
+        "Please check your inbox.",
+        "Don Allah, duba akwatin saƙonninka."
+      ],
+      [
+        "I have attached the document.",
+        "Na haɗa takardar da saƙon."
+      ],
+      [
+        "I look forward to your reply.",
+        "Ina jiran amsarka."
+      ]
+    ],
+    "question": "What does 'I have sent you an email' mean?",
+    "options": [
+      "Na kira ka.",
+      "Na aika maka da imel.",
+      "Na turo maka kuɗi."
+    ],
+    "answer": "Na aika maka da imel."
+  },
+  {
+    "title": "Lesson 28: Meetings and Teamwork",
+    "hausaTitle": "Darasi na 28: Taro da Aiki Tare",
+    "explanation": "Learn English phrases for meetings and teamwork.",
+    "hausaExplanation": "Koyi jimlolin Turanci na taro da aiki tare.",
+    "examples": [
+      [
+        "Let us start the meeting.",
+        "Mu fara taron."
+      ],
+      [
+        "I agree with you.",
+        "Na yarda da kai."
+      ],
+      [
+        "Can you explain your idea?",
+        "Za ka iya bayyana ra'ayinka?"
+      ],
+      [
+        "We need to work together.",
+        "Muna buƙatar yin aiki tare."
+      ]
+    ],
+    "question": "What does 'I agree with you' mean?",
+    "options": [
+      "Ban san ka ba.",
+      "Na yarda da kai.",
+      "Ina jiran ka."
+    ],
+    "answer": "Na yarda da kai."
+  },
+  {
+    "title": "Lesson 29: Solving Problems",
+    "hausaTitle": "Darasi na 29: Magance Matsaloli",
+    "explanation": "Learn how to explain a problem and ask for help.",
+    "hausaExplanation": "Koyi yadda za ka bayyana matsala da neman taimako.",
+    "examples": [
+      [
+        "There is a problem.",
+        "Akwai matsala."
+      ],
+      [
+        "Can you help me solve it?",
+        "Za ka iya taimaka mini in magance ta?"
+      ],
+      [
+        "Let us try another way.",
+        "Mu gwada wata hanya."
+      ],
+      [
+        "The problem is solved.",
+        "An magance matsalar."
+      ]
+    ],
+    "question": "What does 'There is a problem' mean?",
+    "options": [
+      "Akwai matsala.",
+      "Babu matsala.",
+      "An gama cin abinci."
+    ],
+    "answer": "Akwai matsala."
+  },
+  {
+    "title": "Lesson 30: Building Confidence",
+    "hausaTitle": "Darasi na 30: Ƙarfafa Gwiwa",
+    "explanation": "Practise useful sentences to build confidence in English.",
+    "hausaExplanation": "Yi atisaye da jimloli masu amfani domin ƙara ƙarfin gwiwa a Turanci.",
+    "examples": [
+      [
+        "I am improving every day.",
+        "Ina ƙara inganta kaina kowace rana."
+      ],
+      [
+        "I am not afraid to learn.",
+        "Ba na tsoron koyon sabbin abubuwa."
+      ],
+      [
+        "Could you please repeat that?",
+        "Don Allah, za ka iya maimaita abin da ka faɗa?"
+      ],
+      [
+        "Practice makes progress.",
+        "Atisaye yana taimaka wa mutum ya ci gaba."
+      ]
+    ],
+    "question": "How do you say 'I am improving every day'?",
+    "options": [
+      "Na daina koyo.",
+      "Ina ƙara inganta kaina kowace rana.",
+      "Ina barci kullum."
+    ],
+    "answer": "Ina ƙara inganta kaina kowace rana."
   }
 ]
 
@@ -581,9 +891,21 @@ function App() {
   const [lessonIndex, setLessonIndex] = useState(0)
   const [selected, setSelected] = useState('')
   const [checked, setChecked] = useState(false)
-  const [completed, setCompleted] = useState([])
+  const [completed, setCompleted] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem('lukuman-learning-completed') || '[]')
+    } catch {
+      return []
+    }
+  })
 
   const lesson = lessons[lessonIndex]
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('lukuman-learning-completed', JSON.stringify(completed))
+    } catch {}
+  }, [completed])
 
   function openLesson(index = 0) {
     setLessonIndex(index)
@@ -656,6 +978,7 @@ function App() {
 
           <h2>English for Beginners</h2>
           <p>Lesson {lessonIndex + 1} of {lessons.length}</p>
+            <p>Progress / Ci gaba: {completed.length} / {lessons.length} lessons completed</p>
           <progress value={lessonIndex + 1} max={lessons.length} />
 
           <section className="course-card">
