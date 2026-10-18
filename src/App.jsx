@@ -883,6 +883,196 @@ const lessons = [
       "Ina barci kullum."
     ],
     "answer": "Ina ƙara inganta kaina kowace rana."
+  },
+  {
+    "title": "English for Daily Conversations",
+    "hausaTitle": "Turanci don Tattaunawar Kullum",
+    "explanation": "Use simple expressions to keep a conversation going.",
+    "hausaExplanation": "Ka yi amfani da jimloli masu sauƙi don ci gaba da hira.",
+    "examples": [
+      "What are you doing?",
+      "Me kake yi?",
+      "I am reading a book.",
+      "Ina karanta littafi."
+    ],
+    "question": "What does 'I am reading a book' mean?",
+    "options": [
+      "Ina cin abinci.",
+      "Ina karanta littafi.",
+      "Ina tafiya."
+    ],
+    "answer": "Ina karanta littafi."
+  },
+  {
+    "title": "Talking About Your Hometown",
+    "hausaTitle": "Magana Game da Garinku",
+    "explanation": "Describe where you come from using simple English.",
+    "hausaExplanation": "Ka bayyana garinku da Turanci mai sauƙi.",
+    "examples": [
+      "I come from Kano.",
+      "Na fito daga Kano.",
+      "My hometown is beautiful.",
+      "Garina yana da kyau."
+    ],
+    "question": "What does 'I come from Kano' mean?",
+    "options": [
+      "Ina zaune a Legas.",
+      "Na fito daga Kano.",
+      "Zan tafi Kano."
+    ],
+    "answer": "Na fito daga Kano."
+  },
+  {
+    "title": "Describing Your Daily Routine",
+    "hausaTitle": "Bayyana Ayyukan Yau da Kullum",
+    "explanation": "Talk about activities you do every day.",
+    "hausaExplanation": "Ka yi magana game da abubuwan da kake yi kullum.",
+    "examples": [
+      "I open my shop at nine.",
+      "Ina buɗe shaguna da ƙarfe tara.",
+      "I close my shop in the evening.",
+      "Ina rufe shaguna da yamma."
+    ],
+    "question": "What does 'I open my shop at nine' mean?",
+    "options": [
+      "Ina buɗe shagona da ƙarfe tara.",
+      "Ina barci da tara.",
+      "Ina zuwa makaranta."
+    ],
+    "answer": "Ina buɗe shagona da ƙarfe tara."
+  },
+  {
+    "title": "Talking About Skills",
+    "hausaTitle": "Magana Game da Ƙwarewa",
+    "explanation": "Use can and cannot to talk about abilities.",
+    "hausaExplanation": "Yi amfani da can da cannot don bayyana abin da za ka iya ko ba za ka iya ba.",
+    "examples": [
+      "I can use a computer.",
+      "Zan iya amfani da kwamfuta.",
+      "I cannot drive a car.",
+      "Ba zan iya tuƙa mota ba."
+    ],
+    "question": "What does 'I can use a computer' mean?",
+    "options": [
+      "Zan iya amfani da kwamfuta.",
+      "Ba ni da kwamfuta.",
+      "Ina sayar da mota."
+    ],
+    "answer": "Zan iya amfani da kwamfuta."
+  },
+  {
+    "title": "Making Requests Politely",
+    "hausaTitle": "Neman Abu Cikin Ladabi",
+    "explanation": "Use polite expressions when asking for help.",
+    "hausaExplanation": "Yi amfani da kalmomin ladabi idan kana neman taimako.",
+    "examples": [
+      "Could you help me, please?",
+      "Za ka iya taimaka mini, don Allah?",
+      "Please show me the way.",
+      "Don Allah, nuna mini hanya."
+    ],
+    "question": "Which sentence politely asks for help?",
+    "options": [
+      "Go away.",
+      "Could you help me, please?",
+      "I don't care."
+    ],
+    "answer": "Could you help me, please?"
+  },
+  {
+    "title": "Talking About the Weather",
+    "hausaTitle": "Magana Game da Yanayi",
+    "explanation": "Describe common weather conditions.",
+    "hausaExplanation": "Ka bayyana yanayi daban-daban.",
+    "examples": [
+      "It is raining today.",
+      "Ana ruwan sama yau.",
+      "The weather is hot.",
+      "Yanayin yana da zafi."
+    ],
+    "question": "What does 'It is raining today' mean?",
+    "options": [
+      "Ana ruwan sama yau.",
+      "Akwai iska kawai.",
+      "Yau akwai sanyi."
+    ],
+    "answer": "Ana ruwan sama yau."
+  },
+  {
+    "title": "Talking About Future Plans",
+    "hausaTitle": "Magana Game da Shirye-shiryen Gaba",
+    "explanation": "Use 'I will' to talk about future actions.",
+    "hausaExplanation": "Yi amfani da 'I will' don magana game da abin da za ka yi nan gaba.",
+    "examples": [
+      "I will study tonight.",
+      "Zan yi karatu yau da dare.",
+      "I will visit my friend tomorrow.",
+      "Zan ziyarci abokina gobe."
+    ],
+    "question": "What does 'I will study tonight' mean?",
+    "options": [
+      "Na yi karatu jiya.",
+      "Zan yi karatu yau da dare.",
+      "Ina cin abinci."
+    ],
+    "answer": "Zan yi karatu yau da dare."
+  },
+  {
+    "title": "Talking About Past Activities",
+    "hausaTitle": "Magana Game da Abubuwan da Suka Wuce",
+    "explanation": "Use past-tense verbs to describe completed actions.",
+    "hausaExplanation": "Yi amfani da kalmomin lokacin baya wajen bayyana abin da ka riga ka yi.",
+    "examples": [
+      "I visited my friend yesterday.",
+      "Na ziyarci abokina jiya.",
+      "I worked in my shop.",
+      "Na yi aiki a shaguna."
+    ],
+    "question": "What does 'yesterday' mean?",
+    "options": [
+      "Gobe",
+      "Yau",
+      "Jiya"
+    ],
+    "answer": "Jiya"
+  },
+  {
+    "title": "Giving Directions",
+    "hausaTitle": "Bayar da Umarnin Hanya",
+    "explanation": "Use simple phrases to guide someone to a place.",
+    "hausaExplanation": "Yi amfani da jimloli masu sauƙi wajen nuna wa mutum hanya.",
+    "examples": [
+      "Turn left at the junction.",
+      "Juya hagu a mahadar hanya.",
+      "Go straight ahead.",
+      "Ci gaba kai tsaye."
+    ],
+    "question": "What does 'Go straight ahead' mean?",
+    "options": [
+      "Juya baya.",
+      "Ci gaba kai tsaye.",
+      "Tsaya nan."
+    ],
+    "answer": "Ci gaba kai tsaye."
+  },
+  {
+    "title": "Talking About Goals",
+    "hausaTitle": "Magana Game da Manufofi",
+    "explanation": "Describe your goals and what you want to achieve.",
+    "hausaExplanation": "Ka bayyana manufofinka da abin da kake son cimmawa.",
+    "examples": [
+      "I want to improve my English.",
+      "Ina son inganta Turancina.",
+      "I practise every day.",
+      "Ina yin atisaye kullum."
+    ],
+    "question": "What does 'I want to improve my English' mean?",
+    "options": [
+      "Ina son inganta Turancina.",
+      "Na manta Turanci.",
+      "Ba na son karatu."
+    ],
+    "answer": "Ina son inganta Turancina."
   }
 ]
 
